@@ -1,0 +1,8 @@
+{
+  "main": "index.cjs",
+  "type": "module",
+  "dependencies": {
+    "discord.js": "^13.8.1",
+    "node-fetch": "^2.6.7"
+  }
+}
