@@ -23,8 +23,8 @@ const client = new Client({
 
 client.on("ready", async () => {
     console.log("Logged on with: "+client.user.tag)
-    let youtubeKey = "AIzaSyA1PhkI6pj4g-vK0mXVvE6NPTKkKPWZPx0";
-    let youtubeUser = "UCSAi3K7TC71FJpvMGpcCmmA"
+    let youtubeKey = ""; // YouTube v3 API Key
+    let youtubeUser = "" // YouTuber's Channel ID, e.g. UCSAi3K7TC71FJpvMGpcCmmA 
 
     let getSubscribers = () => {
 
